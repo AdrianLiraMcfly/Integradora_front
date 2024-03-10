@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+
+<footer class="footer bg-dark text-white fixed-bottom">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h5>Información de contacto</h5>
+              <p>Dirección: 123 Calle Principal, Ciudad</p>
+              <p>Teléfono: +123456789</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Enlaces útiles</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Acerca de</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5>Síguenos</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i>instagram</a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <hr class="bg-light">
+              <p class="mb-0">© 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </div>
+</footer>

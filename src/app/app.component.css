@@ -1,0 +1,15 @@
+.nav{
+    background-color: #06a306;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
